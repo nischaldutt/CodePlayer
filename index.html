@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Code Player</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="nav">
+		<div id="logo">Code Player</div>
+		<div class="btnContainer">
+			<div class="togglebtn active" id="html">HTML</div>
+			<div class="togglebtn" id="css">CSS</div>
+			<div class="togglebtn" id="javascript">Javascript</div>
+			<div class="togglebtn active" id="output">Output</div>
+		</div>
+	</div>
+
+	<div class="bodyArea">
+		<textarea class="panel" id="htmlText">Hello</textarea>
+		<textarea class="panel hidden" id="cssText">html { color: green; }</textarea>
+		<textarea class="panel hidden" id="javascriptText">alert("Hi");</textarea>
+		<iframe class="panel" id="outputText"></iframe>
+	</div>
+<script type="text/javascript" src="source.js"></script>
+</body>
+</html>

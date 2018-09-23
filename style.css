@@ -1,0 +1,64 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#nav {
+	background-color: #EEEEEE;
+	width: 100%;
+	height: 30px;
+}
+
+#logo {
+	float: left;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.btnContainer {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.togglebtn {
+	float: left;
+	display: block;
+	padding: 3px;
+	border: 1px solid grey;
+	border-right: 1px;
+}
+
+#html {
+	border-radius: 3px;
+}
+
+#output {
+	border-radius: 3px;
+	border-right: 1px solid grey;
+}
+
+.active {
+	background-color: #E8F2FF;
+}
+
+.highlightbtn {
+	background-color: #E3E3E3;
+}
+
+textarea {
+	resize: none;
+}
+
+
+#htmlText {
+	width: 50%;
+}
+
+.panel {
+	float: left;
+}
+
+.hidden {
+	display: none;
+}
